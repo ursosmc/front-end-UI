@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chuchumain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>DTS.com</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">Document Tracking System
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="table_header">
+                <p>History</p>
+            </div>
+            <div class="table_section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>File No.</th>
+                            <th>File Name</th>
+                            <th>File Type</th>
+                            <th>Date Modified</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mc2</td>
+                            <td>PDF</td>
+                            <td>10/15/2022</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div class="content">
+                <header>Menu</header>
+                <button id="popupButton" type="button">
+                    <span><i class="fas fa-file"></i>Import</span>
+                </button>
+                <div id="myPopup" class="popup">
+                    <div class="popup-content">
+                        <h2>Example Popup</h2>
+                        <button id="closePopup" class="popup-btn">Close</button>
+                    </div>
+                </div>
+                <button id="popupButton" type="button">
+                    <span><i class="fas fa-file-export"></i>Export</span>
+                </button>
+            </div>
+        </div>
+    </div>
+<script>
+    
+    var popup = document.getElementById("myPopup");
+    var popupButton = document.getElementById("popupButton");
+    var closePopup = document.getElementById("closePopup");
+
+    popupButton.onclick = function() {
+        popup.style.display = "block";
+    }
+
+    closePopup.onclick = function() {
+        popup.style.display = "none";
+    }
+    
+</script>
+</body>
+</html>
