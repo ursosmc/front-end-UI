@@ -140,34 +140,18 @@
         <div id="sidebar">
             <div class="content">
                 <header>Menu</header>
-                <button id="popupButton" type="button">
-                    <span><i class="fas fa-file"></i>Import</span>
-                </button>
-                <div id="myPopup" class="popup">
-                    <div class="popup-content">
-                        <h2>Example Popup</h2>
-                        <button id="closePopup" class="popup-btn">Close</button>
-                    </div>
-                </div>
-                <button id="popupButton" type="button">
-                    <span><i class="fas fa-file-export"></i>Export</span>
-                </button>
+                <input type="file" id="file">
+                
+                <a download="">
+                    <input type="button" value="Export">
+
+                </a>
+                
             </div>
         </div>
     </div>
 <script>
-    
-    var popup = document.getElementById("myPopup");
-    var popupButton = document.getElementById("popupButton");
-    var closePopup = document.getElementById("closePopup");
-
-    popupButton.onclick = function() {
-        popup.style.display = "block";
-    }
-
-    closePopup.onclick = function() {
-        popup.style.display = "none";
-    }
+ 
     
 </script>
 </body>
